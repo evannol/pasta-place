@@ -1,11 +1,26 @@
 body {
     font-size: 80%;
     font-family: arial, helvetica, geneva, sans-serif;
-}
-footer {
+  }
+  
+  footer {
     font-size: 80%;
     text-align: center;
-}
-h1 {
+    clear: both;
+  }
+  
+  h1 {
     font-family: arial, helvetica, geneva, sans-serif;
-}
+  }
+  
+  nav {
+    background: #d8d8d8; 
+    font-weight: bold;
+    float: left;
+    height: 420px;
+  }
+  
+  .floatright {
+    float: right;
+    clear: right;
+  }
