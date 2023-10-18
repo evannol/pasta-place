@@ -1,2 +1,1 @@
-# site-rebranding about pasta
-#https://evannol.github.io/pasta-place/
+# [Pasta Place](https://evannol.github.io/pasta-place/)
