@@ -24,3 +24,13 @@ body {
     float: right;
     clear: right;
   }
+  #img-rotate {
+    -ms-transform: rotate(345deg); /* Microsoft Edge */
+    -webkit-transform: rotate(345deg); /* Chrome and Safari */
+    transform: rotate(345deg);
+}
+#video-rotate {
+    -ms-transform: rotate(15deg); /* Microsoft Edge */
+    -webkit-transform: rotate(15deg); /* Chrome and Safari */
+    transform: rotate(15deg);
+}
