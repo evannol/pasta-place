@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PastaHistory</title>
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+</script>
+<style>
+    div {
+  opacity: 0.3;
+  color:red;
+}
+
+
+
+</style>
+
+
+</head>
+
+<body >
+    
+    <div>
+    <h1>Quick word</h1>
+    </div>
+    
+    <p style="background-color: lightblue; max-width: 200px;">We love pasta as it is amazing so we hope our website maes you love it to.</p>
+    
+    <h2>Send your pasta pics to us on</h2>
+
+    <p style="border: 2px solid black; padding: 20px; max-width: 200px;">Instagram, Twitter, Facebook, and more!</p>
+
+
+</body>
+</html>
